@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		601F686BC5301D78BE29AAFA /* Pods_SoftlinkAW_SoftlinkAWUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575E7E34AF4290D7D3AB2FB1 /* Pods_SoftlinkAW_SoftlinkAWUITests.framework */; };
+		845CF9BF265E290600AD5CA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CF9BE265E290600AD5CA1 /* AppDelegate.swift */; };
+		845CF9C1265E290600AD5CA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CF9C0265E290600AD5CA1 /* ViewController.swift */; };
+		845CF9C3265E290700AD5CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845CF9C2265E290700AD5CA1 /* Assets.xcassets */; };
+		845CF9C6265E290700AD5CA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845CF9C4265E290700AD5CA1 /* Main.storyboard */; };
+		845CF9D2265E290700AD5CA1 /* SoftlinkAWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CF9D1265E290700AD5CA1 /* SoftlinkAWTests.swift */; };
+		845CF9DD265E290700AD5CA1 /* SoftlinkAWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CF9DC265E290700AD5CA1 /* SoftlinkAWUITests.swift */; };
+		845CFA06265E2D6600AD5CA1 /* JPLDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CFA05265E2D6600AD5CA1 /* JPLDevice.swift */; };
+		8A9AB797110F0843C416B361 /* Pods_SoftlinkAW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A4FEF3387D90122F162DD9 /* Pods_SoftlinkAW.framework */; };
+		EE25E557B52244094D2B03A8 /* Pods_SoftlinkAWTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F621F0E29F78DCD41CA7300A /* Pods_SoftlinkAWTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		845CF9CE265E290700AD5CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845CF9B3265E290600AD5CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845CF9BA265E290600AD5CA1;
+			remoteInfo = SoftlinkAW;
+		};
+		845CF9D9265E290700AD5CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845CF9B3265E290600AD5CA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845CF9BA265E290600AD5CA1;
+			remoteInfo = SoftlinkAW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A3A909F7141F127ED9A53ED /* Pods-SoftlinkAW-SoftlinkAWUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftlinkAW-SoftlinkAWUITests.release.xcconfig"; path = "Target Support Files/Pods-SoftlinkAW-SoftlinkAWUITests/Pods-SoftlinkAW-SoftlinkAWUITests.release.xcconfig"; sourceTree = "<group>"; };
+		575E7E34AF4290D7D3AB2FB1 /* Pods_SoftlinkAW_SoftlinkAWUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoftlinkAW_SoftlinkAWUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC56A9A980F85DC435305C0 /* Pods-SoftlinkAW-SoftlinkAWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftlinkAW-SoftlinkAWUITests.debug.xcconfig"; path = "Target Support Files/Pods-SoftlinkAW-SoftlinkAWUITests/Pods-SoftlinkAW-SoftlinkAWUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D8FD23AA5BFDB110D8E10F5 /* Pods-SoftlinkAW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftlinkAW.debug.xcconfig"; path = "Target Support Files/Pods-SoftlinkAW/Pods-SoftlinkAW.debug.xcconfig"; sourceTree = "<group>"; };
+		74A4FEF3387D90122F162DD9 /* Pods_SoftlinkAW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoftlinkAW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75BB8E5B6EA589AEB514AEA8 /* Pods-SoftlinkAWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftlinkAWTests.debug.xcconfig"; path = "Target Support Files/Pods-SoftlinkAWTests/Pods-SoftlinkAWTests.debug.xcconfig"; sourceTree = "<group>"; };
+		845CF9BB265E290600AD5CA1 /* SoftlinkAW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoftlinkAW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845CF9BE265E290600AD5CA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		845CF9C0265E290600AD5CA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		845CF9C2265E290700AD5CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845CF9C5265E290700AD5CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845CF9C7265E290700AD5CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845CF9C8265E290700AD5CA1 /* SoftlinkAW.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SoftlinkAW.entitlements; sourceTree = "<group>"; };
+		845CF9CD265E290700AD5CA1 /* SoftlinkAWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoftlinkAWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		845CF9D1265E290700AD5CA1 /* SoftlinkAWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftlinkAWTests.swift; sourceTree = "<group>"; };
+		845CF9D3265E290700AD5CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845CF9D8265E290700AD5CA1 /* SoftlinkAWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoftlinkAWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		845CF9DC265E290700AD5CA1 /* SoftlinkAWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftlinkAWUITests.swift; sourceTree = "<group>"; };
+		845CF9DE265E290700AD5CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845CFA05265E2D6600AD5CA1 /* JPLDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPLDevice.swift; sourceTree = "<group>"; };
+		845CFA0A265E4F7400AD5CA1 /* Socket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Socket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845CFA10265E4F7A00AD5CA1 /* USBDeviceSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = USBDeviceSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94557A17B5C61605AA4915B7 /* Pods-SoftlinkAW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftlinkAW.release.xcconfig"; path = "Target Support Files/Pods-SoftlinkAW/Pods-SoftlinkAW.release.xcconfig"; sourceTree = "<group>"; };
+		F1E0BD415FA7981483054168 /* Pods-SoftlinkAWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftlinkAWTests.release.xcconfig"; path = "Target Support Files/Pods-SoftlinkAWTests/Pods-SoftlinkAWTests.release.xcconfig"; sourceTree = "<group>"; };
+		F621F0E29F78DCD41CA7300A /* Pods_SoftlinkAWTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoftlinkAWTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845CF9B8265E290600AD5CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9AB797110F0843C416B361 /* Pods_SoftlinkAW.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845CF9CA265E290700AD5CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE25E557B52244094D2B03A8 /* Pods_SoftlinkAWTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845CF9D5265E290700AD5CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601F686BC5301D78BE29AAFA /* Pods_SoftlinkAW_SoftlinkAWUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37098AD5F3DBB310D2BF00C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				845CFA10265E4F7A00AD5CA1 /* USBDeviceSwift.framework */,
+				845CFA0A265E4F7400AD5CA1 /* Socket.framework */,
+				74A4FEF3387D90122F162DD9 /* Pods_SoftlinkAW.framework */,
+				575E7E34AF4290D7D3AB2FB1 /* Pods_SoftlinkAW_SoftlinkAWUITests.framework */,
+				F621F0E29F78DCD41CA7300A /* Pods_SoftlinkAWTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		845CF9B2265E290600AD5CA1 = {
+			isa = PBXGroup;
+			children = (
+				845CF9BD265E290600AD5CA1 /* SoftlinkAW */,
+				845CF9D0265E290700AD5CA1 /* SoftlinkAWTests */,
+				845CF9DB265E290700AD5CA1 /* SoftlinkAWUITests */,
+				845CF9BC265E290600AD5CA1 /* Products */,
+				9F2A5EEF0DC63A354C19B168 /* Pods */,
+				37098AD5F3DBB310D2BF00C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		845CF9BC265E290600AD5CA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845CF9BB265E290600AD5CA1 /* SoftlinkAW.app */,
+				845CF9CD265E290700AD5CA1 /* SoftlinkAWTests.xctest */,
+				845CF9D8265E290700AD5CA1 /* SoftlinkAWUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845CF9BD265E290600AD5CA1 /* SoftlinkAW */ = {
+			isa = PBXGroup;
+			children = (
+				845CF9BE265E290600AD5CA1 /* AppDelegate.swift */,
+				845CF9C0265E290600AD5CA1 /* ViewController.swift */,
+				845CF9C2265E290700AD5CA1 /* Assets.xcassets */,
+				845CF9C4265E290700AD5CA1 /* Main.storyboard */,
+				845CF9C7265E290700AD5CA1 /* Info.plist */,
+				845CF9C8265E290700AD5CA1 /* SoftlinkAW.entitlements */,
+				845CFA05265E2D6600AD5CA1 /* JPLDevice.swift */,
+			);
+			path = SoftlinkAW;
+			sourceTree = "<group>";
+		};
+		845CF9D0265E290700AD5CA1 /* SoftlinkAWTests */ = {
+			isa = PBXGroup;
+			children = (
+				845CF9D1265E290700AD5CA1 /* SoftlinkAWTests.swift */,
+				845CF9D3265E290700AD5CA1 /* Info.plist */,
+			);
+			path = SoftlinkAWTests;
+			sourceTree = "<group>";
+		};
+		845CF9DB265E290700AD5CA1 /* SoftlinkAWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				845CF9DC265E290700AD5CA1 /* SoftlinkAWUITests.swift */,
+				845CF9DE265E290700AD5CA1 /* Info.plist */,
+			);
+			path = SoftlinkAWUITests;
+			sourceTree = "<group>";
+		};
+		9F2A5EEF0DC63A354C19B168 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D8FD23AA5BFDB110D8E10F5 /* Pods-SoftlinkAW.debug.xcconfig */,
+				94557A17B5C61605AA4915B7 /* Pods-SoftlinkAW.release.xcconfig */,
+				6BC56A9A980F85DC435305C0 /* Pods-SoftlinkAW-SoftlinkAWUITests.debug.xcconfig */,
+				2A3A909F7141F127ED9A53ED /* Pods-SoftlinkAW-SoftlinkAWUITests.release.xcconfig */,
+				75BB8E5B6EA589AEB514AEA8 /* Pods-SoftlinkAWTests.debug.xcconfig */,
+				F1E0BD415FA7981483054168 /* Pods-SoftlinkAWTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845CF9BA265E290600AD5CA1 /* SoftlinkAW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845CF9E1265E290700AD5CA1 /* Build configuration list for PBXNativeTarget "SoftlinkAW" */;
+			buildPhases = (
+				1590BC41C5594F91376CB419 /* [CP] Check Pods Manifest.lock */,
+				845CF9B7265E290600AD5CA1 /* Sources */,
+				845CF9B8265E290600AD5CA1 /* Frameworks */,
+				845CF9B9265E290600AD5CA1 /* Resources */,
+				2B497F421D3E45C0CE21757B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoftlinkAW;
+			productName = SoftlinkAW;
+			productReference = 845CF9BB265E290600AD5CA1 /* SoftlinkAW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		845CF9CC265E290700AD5CA1 /* SoftlinkAWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845CF9E4265E290700AD5CA1 /* Build configuration list for PBXNativeTarget "SoftlinkAWTests" */;
+			buildPhases = (
+				9A3D302E854B40485CDB9ED1 /* [CP] Check Pods Manifest.lock */,
+				845CF9C9265E290700AD5CA1 /* Sources */,
+				845CF9CA265E290700AD5CA1 /* Frameworks */,
+				845CF9CB265E290700AD5CA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845CF9CF265E290700AD5CA1 /* PBXTargetDependency */,
+			);
+			name = SoftlinkAWTests;
+			productName = SoftlinkAWTests;
+			productReference = 845CF9CD265E290700AD5CA1 /* SoftlinkAWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		845CF9D7265E290700AD5CA1 /* SoftlinkAWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845CF9E7265E290700AD5CA1 /* Build configuration list for PBXNativeTarget "SoftlinkAWUITests" */;
+			buildPhases = (
+				0C2B1FAFDDB34F9FFC8D4130 /* [CP] Check Pods Manifest.lock */,
+				845CF9D4265E290700AD5CA1 /* Sources */,
+				845CF9D5265E290700AD5CA1 /* Frameworks */,
+				845CF9D6265E290700AD5CA1 /* Resources */,
+				14EA1651E59651BDCF8B828E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845CF9DA265E290700AD5CA1 /* PBXTargetDependency */,
+			);
+			name = SoftlinkAWUITests;
+			productName = SoftlinkAWUITests;
+			productReference = 845CF9D8265E290700AD5CA1 /* SoftlinkAWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845CF9B3265E290600AD5CA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					845CF9BA265E290600AD5CA1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					845CF9CC265E290700AD5CA1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 845CF9BA265E290600AD5CA1;
+					};
+					845CF9D7265E290700AD5CA1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 845CF9BA265E290600AD5CA1;
+					};
+				};
+			};
+			buildConfigurationList = 845CF9B6265E290600AD5CA1 /* Build configuration list for PBXProject "SoftlinkAW" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845CF9B2265E290600AD5CA1;
+			productRefGroup = 845CF9BC265E290600AD5CA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845CF9BA265E290600AD5CA1 /* SoftlinkAW */,
+				845CF9CC265E290700AD5CA1 /* SoftlinkAWTests */,
+				845CF9D7265E290700AD5CA1 /* SoftlinkAWUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845CF9B9265E290600AD5CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845CF9C3265E290700AD5CA1 /* Assets.xcassets in Resources */,
+				845CF9C6265E290700AD5CA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845CF9CB265E290700AD5CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845CF9D6265E290700AD5CA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C2B1FAFDDB34F9FFC8D4130 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoftlinkAW-SoftlinkAWUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14EA1651E59651BDCF8B828E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoftlinkAW-SoftlinkAWUITests/Pods-SoftlinkAW-SoftlinkAWUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoftlinkAW-SoftlinkAWUITests/Pods-SoftlinkAW-SoftlinkAWUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoftlinkAW-SoftlinkAWUITests/Pods-SoftlinkAW-SoftlinkAWUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1590BC41C5594F91376CB419 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoftlinkAW-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B497F421D3E45C0CE21757B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoftlinkAW/Pods-SoftlinkAW-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoftlinkAW/Pods-SoftlinkAW-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoftlinkAW/Pods-SoftlinkAW-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3D302E854B40485CDB9ED1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoftlinkAWTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845CF9B7265E290600AD5CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845CF9C1265E290600AD5CA1 /* ViewController.swift in Sources */,
+				845CFA06265E2D6600AD5CA1 /* JPLDevice.swift in Sources */,
+				845CF9BF265E290600AD5CA1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845CF9C9265E290700AD5CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845CF9D2265E290700AD5CA1 /* SoftlinkAWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845CF9D4265E290700AD5CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845CF9DD265E290700AD5CA1 /* SoftlinkAWUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		845CF9CF265E290700AD5CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845CF9BA265E290600AD5CA1 /* SoftlinkAW */;
+			targetProxy = 845CF9CE265E290700AD5CA1 /* PBXContainerItemProxy */;
+		};
+		845CF9DA265E290700AD5CA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845CF9BA265E290600AD5CA1 /* SoftlinkAW */;
+			targetProxy = 845CF9D9265E290700AD5CA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		845CF9C4265E290700AD5CA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845CF9C5265E290700AD5CA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845CF9DF265E290700AD5CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		845CF9E0265E290700AD5CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		845CF9E2265E290700AD5CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D8FD23AA5BFDB110D8E10F5 /* Pods-SoftlinkAW.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SoftlinkAW/SoftlinkAW.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4Y9874PBXS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SoftlinkAW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasan.SoftlinkAW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		845CF9E3265E290700AD5CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94557A17B5C61605AA4915B7 /* Pods-SoftlinkAW.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SoftlinkAW/SoftlinkAW.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4Y9874PBXS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SoftlinkAW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasan.SoftlinkAW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		845CF9E5265E290700AD5CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BB8E5B6EA589AEB514AEA8 /* Pods-SoftlinkAWTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZMKTJ2T3Y5;
+				INFOPLIST_FILE = SoftlinkAWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasan.SoftlinkAWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoftlinkAW.app/Contents/MacOS/SoftlinkAW";
+			};
+			name = Debug;
+		};
+		845CF9E6265E290700AD5CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E0BD415FA7981483054168 /* Pods-SoftlinkAWTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZMKTJ2T3Y5;
+				INFOPLIST_FILE = SoftlinkAWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasan.SoftlinkAWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoftlinkAW.app/Contents/MacOS/SoftlinkAW";
+			};
+			name = Release;
+		};
+		845CF9E8265E290700AD5CA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC56A9A980F85DC435305C0 /* Pods-SoftlinkAW-SoftlinkAWUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZMKTJ2T3Y5;
+				INFOPLIST_FILE = SoftlinkAWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasan.SoftlinkAWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SoftlinkAW;
+			};
+			name = Debug;
+		};
+		845CF9E9265E290700AD5CA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3A909F7141F127ED9A53ED /* Pods-SoftlinkAW-SoftlinkAWUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZMKTJ2T3Y5;
+				INFOPLIST_FILE = SoftlinkAWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dasan.SoftlinkAWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SoftlinkAW;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845CF9B6265E290600AD5CA1 /* Build configuration list for PBXProject "SoftlinkAW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845CF9DF265E290700AD5CA1 /* Debug */,
+				845CF9E0265E290700AD5CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845CF9E1265E290700AD5CA1 /* Build configuration list for PBXNativeTarget "SoftlinkAW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845CF9E2265E290700AD5CA1 /* Debug */,
+				845CF9E3265E290700AD5CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845CF9E4265E290700AD5CA1 /* Build configuration list for PBXNativeTarget "SoftlinkAWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845CF9E5265E290700AD5CA1 /* Debug */,
+				845CF9E6265E290700AD5CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845CF9E7265E290700AD5CA1 /* Build configuration list for PBXNativeTarget "SoftlinkAWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845CF9E8265E290700AD5CA1 /* Debug */,
+				845CF9E9265E290700AD5CA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845CF9B3265E290600AD5CA1 /* Project object */;
+}

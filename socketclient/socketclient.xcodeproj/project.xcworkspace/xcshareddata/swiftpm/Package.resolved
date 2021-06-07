@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Socket",
+        "repositoryURL": "https://github.com/Kitura/BlueSocket.git",
+        "state": {
+          "branch": "master",
+          "revision": "7cedc53a634abfa5db3737588d4078254d5b1622",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,24 @@
+PODS:
+  - BlueSocket (1.0.52)
+  - SwiftyJSON (4.3.0)
+  - USBDeviceSwift (1.0.3)
+
+DEPENDENCIES:
+  - BlueSocket
+  - SwiftyJSON (~> 4.0)
+  - USBDeviceSwift
+
+SPEC REPOS:
+  trunk:
+    - BlueSocket
+    - SwiftyJSON
+    - USBDeviceSwift
+
+SPEC CHECKSUMS:
+  BlueSocket: 1acd943acb07b55905291d608649fcfbf8cbd57d
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  USBDeviceSwift: b9e85b70d8a78a2f4196881d7b673b7a8b9d117a
+
+PODFILE CHECKSUM: d5171c7d57fc2f1c1307c0b6f197dc216cae786f
+
+COCOAPODS: 1.10.1

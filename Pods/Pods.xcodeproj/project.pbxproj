@@ -1,0 +1,1390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		088322E81AC101AC449C5BBCEBE462DA /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFBBA9D1BDC644A43997695BBC895F1 /* Socket.swift */; };
+		100D1C5DA301F30B4BC163CBE93ADE98 /* Pods-SoftlinkAW-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E2C5E99E2E8A004626EB3AF3E73AABE /* Pods-SoftlinkAW-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12687CFC14016E2161BAD5DF6776788D /* USBDeviceMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB173BA0AEB6087EB64C3DC45D5791 /* USBDeviceMonitor.swift */; };
+		159EBF09C303D11324241AB5C4C904F3 /* Pods-SoftlinkAWTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 372F68EA9A995AAF6E2D133F6710BFC3 /* Pods-SoftlinkAWTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1760AF3E2CF96191F7758264E33AD9E6 /* BlueSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 320A993DCA079BE4803FF837F6783643 /* BlueSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		191A6A2BA0EDECE004D7950267982882 /* USBDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0FE2CEED21C4B3148A969B910EB626 /* USBDevice.swift */; };
+		1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7098B486FF89FA08D6DF1CD291478267 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19AEAA43C01DC9998C8D6E12A7028EF8 /* Pods-SoftlinkAWTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1AB047389DF66EF5850C5BF7F78939 /* Pods-SoftlinkAWTests-dummy.m */; };
+		2059D8B5FFE163E510E12C5A6A2E61F0 /* SocketUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A0A41A6F9534A476403EB194AC1134 /* SocketUtils.swift */; };
+		20ABA3F900EAFCE434322581110ADEF2 /* SocketProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6351C828BC0CD196ECB6C0B0219846 /* SocketProtocols.swift */; };
+		2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B77917447F3FE22A2586058F0615D7D /* SwiftyJSON-dummy.m */; };
+		32F980B7A6E6C1B3CBA10399732C605F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		3B9F3C4DCBCAC7E9C5B53CE16AD7F16A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		48F2E5F1F0005C725636F8211F12F76F /* USBDeviceSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E88911CEA645DED2F127AF387C0DFC3 /* USBDeviceSwift-dummy.m */; };
+		5A09108317117BA7CADED76D4AF08310 /* SerialDeviceMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BECA7D450BF11C20FB9288D1F4F77C /* SerialDeviceMonitor.swift */; };
+		5FEC5594D4CE470320C571C84D6CC06D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		63903EB27F2BF03B00AB1191464ABB6D /* HIDDeviceMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0589979A582EB85561D48793E50A8 /* HIDDeviceMonitor.swift */; };
+		689FDAD8C1BB22C761EA2ED0137E55A8 /* HIDDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB386A3A04EB04252AB9260196ED20BB /* HIDDevice.swift */; };
+		70700FF0B022321F294F634F1BBFFA5D /* Pods-SoftlinkAW-SoftlinkAWUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B2852028C12DF472D0A1F02536037B /* Pods-SoftlinkAW-SoftlinkAWUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AA9904669C75C15B2CEB68C03E34E8E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D747A3527CBA9D533419271D0F22D0 /* SwiftyJSON.swift */; };
+		7E96E6357FF1C57D71CB0C2766C3AB45 /* USBDeviceSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFB2A5034EAB6C3A40F8973ABF39644 /* USBDeviceSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91DCD9D6321222B746ACDF9E603E46F6 /* Pods-SoftlinkAW-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 329C8B2911682621A71B7A7C6A043DC9 /* Pods-SoftlinkAW-dummy.m */; };
+		C603D529A08F3B8C181F0BEE36AE386E /* SerialDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C801FB037A5E21577A9A9C05BCD2BD93 /* SerialDevice.swift */; };
+		D5CFAE64A99B6A509F968F217882AA67 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		D794FFDE79744FAA68EA7BBAEFBF7246 /* Pods-SoftlinkAW-SoftlinkAWUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AA6BF2C67039CEE970A1E96C8445AB /* Pods-SoftlinkAW-SoftlinkAWUITests-dummy.m */; };
+		E654F0639E4FC3DEE1BEA8BB63F55745 /* BlueSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C641FBC6D59B2522B1D7ECE92F4D58 /* BlueSocket-dummy.m */; };
+		E6EC64ABA3B69C1316B447981949BADE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		FD1FF588CE04E721A458A01911715AB9 /* USBDeviceSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7BA85584C84361042CBFC1F525B4801 /* USBDeviceSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CD099514C1CE7CAC80D52D63900719D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		B1A62B5CD498D18CFF3D79FD920BCDE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 249E6CD01FDE0B27A27938C65A82728E;
+			remoteInfo = USBDeviceSwift;
+		};
+		C0ED25CBFCC9104C6778E730EAD100DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9717BE7FCECEF299173A5D71C18B19F5;
+			remoteInfo = BlueSocket;
+		};
+		DDD03625B421EB0EDED39A841B24A56A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
+		E5C5738BAE9F6631795E3D116A1031FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9717BE7FCECEF299173A5D71C18B19F5;
+			remoteInfo = BlueSocket;
+		};
+		F855F343BAD8CFC5034B54F0CE51543D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 249E6CD01FDE0B27A27938C65A82728E;
+			remoteInfo = USBDeviceSwift;
+		};
+		FF902A7ABF9BD2A82F962FFA3F820864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2CE3CD8A6FF1BFCC826B0AAAE19CF9;
+			remoteInfo = "Pods-SoftlinkAW";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F9A79EB61F39A6D0C4216CF1938E64 /* Pods-SoftlinkAW-SoftlinkAWUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoftlinkAW-SoftlinkAWUITests-frameworks.sh"; sourceTree = "<group>"; };
+		04877A242E663381D1AD68AD453597FB /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		054D33BC1821755FD5C08E53BB5FFF9C /* USBDeviceSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = USBDeviceSwift.modulemap; sourceTree = "<group>"; };
+		079822F14603F00118EB1998DDD37C02 /* Pods-SoftlinkAW-SoftlinkAWUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SoftlinkAW-SoftlinkAWUITests.modulemap"; sourceTree = "<group>"; };
+		0E6351C828BC0CD196ECB6C0B0219846 /* SocketProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketProtocols.swift; path = Sources/Socket/SocketProtocols.swift; sourceTree = "<group>"; };
+		0EFD9EE43E4C7146EA70AA5094E3743B /* Pods-SoftlinkAW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoftlinkAW.release.xcconfig"; sourceTree = "<group>"; };
+		157F42E6773D138D00C5DBD3FFE913FA /* Pods_SoftlinkAW_SoftlinkAWUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoftlinkAW_SoftlinkAWUITests.framework; path = "Pods-SoftlinkAW-SoftlinkAWUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1611A8816A974E4A6EF1C051832BA7A5 /* Pods-SoftlinkAWTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SoftlinkAWTests.modulemap"; sourceTree = "<group>"; };
+		1A39008D1AB91B942934267E2A4B2EF3 /* Pods-SoftlinkAW.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SoftlinkAW.modulemap"; sourceTree = "<group>"; };
+		29029082F2C82C5441A2DFB4E1E8C1D2 /* BlueSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlueSocket.modulemap; sourceTree = "<group>"; };
+		2986DDA4FC6A450CC9C97F466B820420 /* Pods_SoftlinkAWTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoftlinkAWTests.framework; path = "Pods-SoftlinkAWTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E88911CEA645DED2F127AF387C0DFC3 /* USBDeviceSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "USBDeviceSwift-dummy.m"; sourceTree = "<group>"; };
+		2EAA4A7F572E0FFFDA0F24140040D388 /* Socket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Socket.framework; path = BlueSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FE93DE3CE1E3BC9987F192E1C64F3D5 /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
+		320A993DCA079BE4803FF837F6783643 /* BlueSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueSocket-umbrella.h"; sourceTree = "<group>"; };
+		329C8B2911682621A71B7A7C6A043DC9 /* Pods-SoftlinkAW-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoftlinkAW-dummy.m"; sourceTree = "<group>"; };
+		372F68EA9A995AAF6E2D133F6710BFC3 /* Pods-SoftlinkAWTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoftlinkAWTests-umbrella.h"; sourceTree = "<group>"; };
+		3AA04D38759B45F18FD8FD15071CACB2 /* Pods-SoftlinkAW-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoftlinkAW-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B77917447F3FE22A2586058F0615D7D /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		4BDA2EF73C0AFCBFE8D7A73CF85EE82F /* Pods_SoftlinkAW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SoftlinkAW.framework; path = "Pods-SoftlinkAW.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF4912F850C6A3EE1243E6F4E378735 /* USBDeviceSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "USBDeviceSwift-prefix.pch"; sourceTree = "<group>"; };
+		4DFB2A5034EAB6C3A40F8973ABF39644 /* USBDeviceSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = USBDeviceSwift.h; path = Sources/USBDeviceSwift.h; sourceTree = "<group>"; };
+		4E2C5E99E2E8A004626EB3AF3E73AABE /* Pods-SoftlinkAW-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoftlinkAW-umbrella.h"; sourceTree = "<group>"; };
+		50F02112519E934D309BC60C181CA794 /* USBDeviceSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "USBDeviceSwift-Info.plist"; sourceTree = "<group>"; };
+		64C641FBC6D59B2522B1D7ECE92F4D58 /* BlueSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlueSocket-dummy.m"; sourceTree = "<group>"; };
+		670EB4C061CDEF5C8AB213A8AE8321A3 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		7098B486FF89FA08D6DF1CD291478267 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		70D747A3527CBA9D533419271D0F22D0 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		7186EDB285CEB5F7481BDE3717FE8BBA /* Pods-SoftlinkAW-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoftlinkAW-acknowledgements.markdown"; sourceTree = "<group>"; };
+		71B5558A1D4677F4DA0AB6E5F9E25182 /* USBDeviceSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = USBDeviceSwift.framework; path = USBDeviceSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C55CCAC7756350CACB85C2FB98AFA1 /* BlueSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlueSocket.debug.xcconfig; sourceTree = "<group>"; };
+		7DDCF27F9C193E0AC589F620CCB12EC6 /* Pods-SoftlinkAW-SoftlinkAWUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoftlinkAW-SoftlinkAWUITests-Info.plist"; sourceTree = "<group>"; };
+		84F0589979A582EB85561D48793E50A8 /* HIDDeviceMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HIDDeviceMonitor.swift; path = Sources/HIDDeviceMonitor.swift; sourceTree = "<group>"; };
+		95A0A41A6F9534A476403EB194AC1134 /* SocketUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketUtils.swift; path = Sources/Socket/SocketUtils.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0FE2CEED21C4B3148A969B910EB626 /* USBDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = USBDevice.swift; path = Sources/USBDevice.swift; sourceTree = "<group>"; };
+		A5AA6BF2C67039CEE970A1E96C8445AB /* Pods-SoftlinkAW-SoftlinkAWUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoftlinkAW-SoftlinkAWUITests-dummy.m"; sourceTree = "<group>"; };
+		A86AEF4479B96B4AE6F3AC5611961CEB /* Pods-SoftlinkAW-SoftlinkAWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoftlinkAW-SoftlinkAWUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9D408BA5F34CF6646BD1F8D2D33CCB0 /* USBDeviceSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = USBDeviceSwift.debug.xcconfig; sourceTree = "<group>"; };
+		ABFB173BA0AEB6087EB64C3DC45D5791 /* USBDeviceMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = USBDeviceMonitor.swift; path = Sources/USBDeviceMonitor.swift; sourceTree = "<group>"; };
+		ACD1E53ABB63469ECBAEC69FEE6BE23C /* Pods-SoftlinkAWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoftlinkAWTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD8426CA56E4A0B3C7F45096FD1D78B3 /* Pods-SoftlinkAW-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoftlinkAW-frameworks.sh"; sourceTree = "<group>"; };
+		AF1AB047389DF66EF5850C5BF7F78939 /* Pods-SoftlinkAWTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoftlinkAWTests-dummy.m"; sourceTree = "<group>"; };
+		B7BA85584C84361042CBFC1F525B4801 /* USBDeviceSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "USBDeviceSwift-umbrella.h"; sourceTree = "<group>"; };
+		B8B2852028C12DF472D0A1F02536037B /* Pods-SoftlinkAW-SoftlinkAWUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoftlinkAW-SoftlinkAWUITests-umbrella.h"; sourceTree = "<group>"; };
+		B938D4E3D2D8DA1E8D9F54820298F4D7 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		B941A5745156FB6B0E8E6F02F809989B /* USBDeviceSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = USBDeviceSwift.release.xcconfig; sourceTree = "<group>"; };
+		B9BECA7D450BF11C20FB9288D1F4F77C /* SerialDeviceMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialDeviceMonitor.swift; path = Sources/SerialDeviceMonitor.swift; sourceTree = "<group>"; };
+		BAA36089E0C1719C316D7773F413C6E8 /* BlueSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueSocket-prefix.pch"; sourceTree = "<group>"; };
+		BAFBBA9D1BDC644A43997695BBC895F1 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket/Socket.swift; sourceTree = "<group>"; };
+		BC710DD4A4F795709870B21E10C84766 /* Pods-SoftlinkAW-SoftlinkAWUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoftlinkAW-SoftlinkAWUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BED2BCC61557F0C8BE52E701CA190EFA /* Pods-SoftlinkAWTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoftlinkAWTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C061D4B4FCFB81EDBD98730973FFD658 /* BlueSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BlueSocket-Info.plist"; sourceTree = "<group>"; };
+		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C143A1E9F07C6643580D3C622B812744 /* Pods-SoftlinkAW-SoftlinkAWUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoftlinkAW-SoftlinkAWUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C61334A2E4F49FA448B219739520C563 /* Pods-SoftlinkAW-SoftlinkAWUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoftlinkAW-SoftlinkAWUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C801FB037A5E21577A9A9C05BCD2BD93 /* SerialDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerialDevice.swift; path = Sources/SerialDevice.swift; sourceTree = "<group>"; };
+		CF27C2E2B9D45568B6B561AEF9BE0814 /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
+		D2652CBB4D08560B9532B0A7F88BD644 /* Pods-SoftlinkAWTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoftlinkAWTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D39CA787783D5C2DBDBAAEC5DD9DD73D /* Pods-SoftlinkAW-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoftlinkAW-Info.plist"; sourceTree = "<group>"; };
+		DB386A3A04EB04252AB9260196ED20BB /* HIDDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HIDDevice.swift; path = Sources/HIDDevice.swift; sourceTree = "<group>"; };
+		DE91E5D3B68C5FD13CCD22D52AEF6C8B /* Pods-SoftlinkAWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoftlinkAWTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC908A02BF8CC4DAF6E4AE2B760C6BB /* Pods-SoftlinkAWTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoftlinkAWTests-Info.plist"; sourceTree = "<group>"; };
+		EFC5E7509629831AF343D4812C0DCA2E /* BlueSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlueSocket.release.xcconfig; sourceTree = "<group>"; };
+		FD9DD9D24EAAD96B8E7090A62D3C8BC7 /* Pods-SoftlinkAW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoftlinkAW.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F0358E10D4399A063F25B3A751A7381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9F3C4DCBCAC7E9C5B53CE16AD7F16A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD4780DB2B14AA28E78D7C996FEF4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F980B7A6E6C1B3CBA10399732C605F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7818606FA4B725242E9811C494383EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EC64ABA3B69C1316B447981949BADE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9353098330A7812892B09F7378B44537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA9904669C75C15B2CEB68C03E34E8E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99899327FE38F57017D2AA4C69116EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CFAE64A99B6A509F968F217882AA67 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE5D79FB304A9F2FB7A88E24FB0A6B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEC5594D4CE470320C571C84D6CC06D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F7A3BFFAAFE1189C6D74A3ED44B968 /* BlueSocket */ = {
+			isa = PBXGroup;
+			children = (
+				BAFBBA9D1BDC644A43997695BBC895F1 /* Socket.swift */,
+				0E6351C828BC0CD196ECB6C0B0219846 /* SocketProtocols.swift */,
+				95A0A41A6F9534A476403EB194AC1134 /* SocketUtils.swift */,
+				B4E55D4A3B614076B8F7C6B6F67FB241 /* Support Files */,
+			);
+			name = BlueSocket;
+			path = BlueSocket;
+			sourceTree = "<group>";
+		};
+		17CB4664D3E5741256100F05C9F266A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				054D33BC1821755FD5C08E53BB5FFF9C /* USBDeviceSwift.modulemap */,
+				2E88911CEA645DED2F127AF387C0DFC3 /* USBDeviceSwift-dummy.m */,
+				50F02112519E934D309BC60C181CA794 /* USBDeviceSwift-Info.plist */,
+				4DF4912F850C6A3EE1243E6F4E378735 /* USBDeviceSwift-prefix.pch */,
+				B7BA85584C84361042CBFC1F525B4801 /* USBDeviceSwift-umbrella.h */,
+				A9D408BA5F34CF6646BD1F8D2D33CCB0 /* USBDeviceSwift.debug.xcconfig */,
+				B941A5745156FB6B0E8E6F02F809989B /* USBDeviceSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/USBDeviceSwift";
+			sourceTree = "<group>";
+		};
+		29CF7CDD835946E179F1E2076BE576E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00F7A3BFFAAFE1189C6D74A3ED44B968 /* BlueSocket */,
+				B64E77B3AE34075157C2090C2D711584 /* SwiftyJSON */,
+				6B7FA20630E175456E0FB284EAB39BF6 /* USBDeviceSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		62C1D454B2E7726773DE6E70DF023BFB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B938D4E3D2D8DA1E8D9F54820298F4D7 /* SwiftyJSON.modulemap */,
+				3B77917447F3FE22A2586058F0615D7D /* SwiftyJSON-dummy.m */,
+				04877A242E663381D1AD68AD453597FB /* SwiftyJSON-Info.plist */,
+				670EB4C061CDEF5C8AB213A8AE8321A3 /* SwiftyJSON-prefix.pch */,
+				7098B486FF89FA08D6DF1CD291478267 /* SwiftyJSON-umbrella.h */,
+				2FE93DE3CE1E3BC9987F192E1C64F3D5 /* SwiftyJSON.debug.xcconfig */,
+				CF27C2E2B9D45568B6B561AEF9BE0814 /* SwiftyJSON.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		6B7FA20630E175456E0FB284EAB39BF6 /* USBDeviceSwift */ = {
+			isa = PBXGroup;
+			children = (
+				DB386A3A04EB04252AB9260196ED20BB /* HIDDevice.swift */,
+				84F0589979A582EB85561D48793E50A8 /* HIDDeviceMonitor.swift */,
+				C801FB037A5E21577A9A9C05BCD2BD93 /* SerialDevice.swift */,
+				B9BECA7D450BF11C20FB9288D1F4F77C /* SerialDeviceMonitor.swift */,
+				9F0FE2CEED21C4B3148A969B910EB626 /* USBDevice.swift */,
+				ABFB173BA0AEB6087EB64C3DC45D5791 /* USBDeviceMonitor.swift */,
+				4DFB2A5034EAB6C3A40F8973ABF39644 /* USBDeviceSwift.h */,
+				17CB4664D3E5741256100F05C9F266A2 /* Support Files */,
+			);
+			name = USBDeviceSwift;
+			path = USBDeviceSwift;
+			sourceTree = "<group>";
+		};
+		72B702333E2DB0FF3E2299A4D8B05A45 /* Pods-SoftlinkAWTests */ = {
+			isa = PBXGroup;
+			children = (
+				1611A8816A974E4A6EF1C051832BA7A5 /* Pods-SoftlinkAWTests.modulemap */,
+				D2652CBB4D08560B9532B0A7F88BD644 /* Pods-SoftlinkAWTests-acknowledgements.markdown */,
+				BED2BCC61557F0C8BE52E701CA190EFA /* Pods-SoftlinkAWTests-acknowledgements.plist */,
+				AF1AB047389DF66EF5850C5BF7F78939 /* Pods-SoftlinkAWTests-dummy.m */,
+				EEC908A02BF8CC4DAF6E4AE2B760C6BB /* Pods-SoftlinkAWTests-Info.plist */,
+				372F68EA9A995AAF6E2D133F6710BFC3 /* Pods-SoftlinkAWTests-umbrella.h */,
+				DE91E5D3B68C5FD13CCD22D52AEF6C8B /* Pods-SoftlinkAWTests.debug.xcconfig */,
+				ACD1E53ABB63469ECBAEC69FEE6BE23C /* Pods-SoftlinkAWTests.release.xcconfig */,
+			);
+			name = "Pods-SoftlinkAWTests";
+			path = "Target Support Files/Pods-SoftlinkAWTests";
+			sourceTree = "<group>";
+		};
+		7E00C997F19A1B1D07585C2AE6FE53C7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEAA9A81AFA12710776009561DFFBE54 /* Pods-SoftlinkAW */,
+				D18FB33346FF80D8EAB9E5BBFE8BD538 /* Pods-SoftlinkAW-SoftlinkAWUITests */,
+				72B702333E2DB0FF3E2299A4D8B05A45 /* Pods-SoftlinkAWTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B4E55D4A3B614076B8F7C6B6F67FB241 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29029082F2C82C5441A2DFB4E1E8C1D2 /* BlueSocket.modulemap */,
+				64C641FBC6D59B2522B1D7ECE92F4D58 /* BlueSocket-dummy.m */,
+				C061D4B4FCFB81EDBD98730973FFD658 /* BlueSocket-Info.plist */,
+				BAA36089E0C1719C316D7773F413C6E8 /* BlueSocket-prefix.pch */,
+				320A993DCA079BE4803FF837F6783643 /* BlueSocket-umbrella.h */,
+				75C55CCAC7756350CACB85C2FB98AFA1 /* BlueSocket.debug.xcconfig */,
+				EFC5E7509629831AF343D4812C0DCA2E /* BlueSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BlueSocket";
+			sourceTree = "<group>";
+		};
+		B563FB2414F38E66FA8DAAB4728D7D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BDA2EF73C0AFCBFE8D7A73CF85EE82F /* Pods_SoftlinkAW.framework */,
+				157F42E6773D138D00C5DBD3FFE913FA /* Pods_SoftlinkAW_SoftlinkAWUITests.framework */,
+				2986DDA4FC6A450CC9C97F466B820420 /* Pods_SoftlinkAWTests.framework */,
+				2EAA4A7F572E0FFFDA0F24140040D388 /* Socket.framework */,
+				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
+				71B5558A1D4677F4DA0AB6E5F9E25182 /* USBDeviceSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B64E77B3AE34075157C2090C2D711584 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				70D747A3527CBA9D533419271D0F22D0 /* SwiftyJSON.swift */,
+				62C1D454B2E7726773DE6E70DF023BFB /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		BEAA9A81AFA12710776009561DFFBE54 /* Pods-SoftlinkAW */ = {
+			isa = PBXGroup;
+			children = (
+				1A39008D1AB91B942934267E2A4B2EF3 /* Pods-SoftlinkAW.modulemap */,
+				7186EDB285CEB5F7481BDE3717FE8BBA /* Pods-SoftlinkAW-acknowledgements.markdown */,
+				3AA04D38759B45F18FD8FD15071CACB2 /* Pods-SoftlinkAW-acknowledgements.plist */,
+				329C8B2911682621A71B7A7C6A043DC9 /* Pods-SoftlinkAW-dummy.m */,
+				AD8426CA56E4A0B3C7F45096FD1D78B3 /* Pods-SoftlinkAW-frameworks.sh */,
+				D39CA787783D5C2DBDBAAEC5DD9DD73D /* Pods-SoftlinkAW-Info.plist */,
+				4E2C5E99E2E8A004626EB3AF3E73AABE /* Pods-SoftlinkAW-umbrella.h */,
+				FD9DD9D24EAAD96B8E7090A62D3C8BC7 /* Pods-SoftlinkAW.debug.xcconfig */,
+				0EFD9EE43E4C7146EA70AA5094E3743B /* Pods-SoftlinkAW.release.xcconfig */,
+			);
+			name = "Pods-SoftlinkAW";
+			path = "Target Support Files/Pods-SoftlinkAW";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				29CF7CDD835946E179F1E2076BE576E7 /* Pods */,
+				B563FB2414F38E66FA8DAAB4728D7D22 /* Products */,
+				7E00C997F19A1B1D07585C2AE6FE53C7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D18FB33346FF80D8EAB9E5BBFE8BD538 /* Pods-SoftlinkAW-SoftlinkAWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				079822F14603F00118EB1998DDD37C02 /* Pods-SoftlinkAW-SoftlinkAWUITests.modulemap */,
+				C61334A2E4F49FA448B219739520C563 /* Pods-SoftlinkAW-SoftlinkAWUITests-acknowledgements.markdown */,
+				C143A1E9F07C6643580D3C622B812744 /* Pods-SoftlinkAW-SoftlinkAWUITests-acknowledgements.plist */,
+				A5AA6BF2C67039CEE970A1E96C8445AB /* Pods-SoftlinkAW-SoftlinkAWUITests-dummy.m */,
+				03F9A79EB61F39A6D0C4216CF1938E64 /* Pods-SoftlinkAW-SoftlinkAWUITests-frameworks.sh */,
+				7DDCF27F9C193E0AC589F620CCB12EC6 /* Pods-SoftlinkAW-SoftlinkAWUITests-Info.plist */,
+				B8B2852028C12DF472D0A1F02536037B /* Pods-SoftlinkAW-SoftlinkAWUITests-umbrella.h */,
+				A86AEF4479B96B4AE6F3AC5611961CEB /* Pods-SoftlinkAW-SoftlinkAWUITests.debug.xcconfig */,
+				BC710DD4A4F795709870B21E10C84766 /* Pods-SoftlinkAW-SoftlinkAWUITests.release.xcconfig */,
+			);
+			name = "Pods-SoftlinkAW-SoftlinkAWUITests";
+			path = "Target Support Files/Pods-SoftlinkAW-SoftlinkAWUITests";
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D8EAA1B6EC625EDEE79D89F01EAD904 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD1FF588CE04E721A458A01911715AB9 /* USBDeviceSwift-umbrella.h in Headers */,
+				7E96E6357FF1C57D71CB0C2766C3AB45 /* USBDeviceSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A9088604DD648039426A8F6F64A37C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70700FF0B022321F294F634F1BBFFA5D /* Pods-SoftlinkAW-SoftlinkAWUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD1469924195B310601CCA1CCA41E7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100D1C5DA301F30B4BC163CBE93ADE98 /* Pods-SoftlinkAW-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEDCED618AC4CF562ECA334E62995813 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1760AF3E2CF96191F7758264E33AD9E6 /* BlueSocket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62A12AEC9B7D90C231CF1590B5A2F3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159EBF09C303D11324241AB5C4C904F3 /* Pods-SoftlinkAWTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		078CBBCB7E8DF4A033DFABDCEED41F37 /* Pods-SoftlinkAWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857246E78F46652207DEACCC0947A50E /* Build configuration list for PBXNativeTarget "Pods-SoftlinkAWTests" */;
+			buildPhases = (
+				F62A12AEC9B7D90C231CF1590B5A2F3A /* Headers */,
+				F62BD979567E14A1ED41059E69C0B467 /* Sources */,
+				9353098330A7812892B09F7378B44537 /* Frameworks */,
+				C76AB89E6B2255600C7FABB75680F171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D58F2DF2C412C9528AE59EA7E709DC /* PBXTargetDependency */,
+			);
+			name = "Pods-SoftlinkAWTests";
+			productName = "Pods-SoftlinkAWTests";
+			productReference = 2986DDA4FC6A450CC9C97F466B820420 /* Pods_SoftlinkAWTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		18CE111C015EAAE43AECB3A7D8F23844 /* Pods-SoftlinkAW-SoftlinkAWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB94136CFB4424196B1EDB840E6BD6E /* Build configuration list for PBXNativeTarget "Pods-SoftlinkAW-SoftlinkAWUITests" */;
+			buildPhases = (
+				54A9088604DD648039426A8F6F64A37C /* Headers */,
+				1B1BD77E4B0D849AA2AD239EA61B115D /* Sources */,
+				2DD4780DB2B14AA28E78D7C996FEF4A8 /* Frameworks */,
+				68D7B239E91F8545A9CF028403B218DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27F63191C97269FCAA645E2A03BCE086 /* PBXTargetDependency */,
+				4C843A814952BC911DFFB7BFBCAA48C7 /* PBXTargetDependency */,
+				7A20ABD99AA61027303FFDA417CC845A /* PBXTargetDependency */,
+			);
+			name = "Pods-SoftlinkAW-SoftlinkAWUITests";
+			productName = "Pods-SoftlinkAW-SoftlinkAWUITests";
+			productReference = 157F42E6773D138D00C5DBD3FFE913FA /* Pods_SoftlinkAW_SoftlinkAWUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		249E6CD01FDE0B27A27938C65A82728E /* USBDeviceSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FFD5C4E4E4F1357AC9CE2CC0BB15EF /* Build configuration list for PBXNativeTarget "USBDeviceSwift" */;
+			buildPhases = (
+				0D8EAA1B6EC625EDEE79D89F01EAD904 /* Headers */,
+				A96ABE1A6697A9C9B82D15BEA55EFE63 /* Sources */,
+				1F0358E10D4399A063F25B3A751A7381 /* Frameworks */,
+				C52F8DC6F0E87F776A3204EC5A06C8B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = USBDeviceSwift;
+			productName = USBDeviceSwift;
+			productReference = 71B5558A1D4677F4DA0AB6E5F9E25182 /* USBDeviceSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F2CE3CD8A6FF1BFCC826B0AAAE19CF9 /* Pods-SoftlinkAW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A078D1151C62817D5E349DC7C3D0271 /* Build configuration list for PBXNativeTarget "Pods-SoftlinkAW" */;
+			buildPhases = (
+				8DD1469924195B310601CCA1CCA41E7C /* Headers */,
+				ACC0B703CA1A8D6B6F6218DB55E212F9 /* Sources */,
+				9FE5D79FB304A9F2FB7A88E24FB0A6B1 /* Frameworks */,
+				EB39543BCF728D7582B3326934589CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81CFB4C9E495C1739AE372B66141786E /* PBXTargetDependency */,
+				C54D744F92E5CE80C8D30700B7A34F3F /* PBXTargetDependency */,
+				88FA22697A8B06D0A5616DB213BA990B /* PBXTargetDependency */,
+			);
+			name = "Pods-SoftlinkAW";
+			productName = "Pods-SoftlinkAW";
+			productReference = 4BDA2EF73C0AFCBFE8D7A73CF85EE82F /* Pods_SoftlinkAW.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87A03B7CDC3F58F8F7D420134806E925 /* Build configuration list for PBXNativeTarget "BlueSocket" */;
+			buildPhases = (
+				EEDCED618AC4CF562ECA334E62995813 /* Headers */,
+				BA99ED16FD44DA8B3FD690B27CBA2194 /* Sources */,
+				99899327FE38F57017D2AA4C69116EDD /* Frameworks */,
+				C8370E91C272F1B31D13EFAFEA45DDF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueSocket;
+			productName = BlueSocket;
+			productReference = 2EAA4A7F572E0FFFDA0F24140040D388 /* Socket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */,
+				1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */,
+				7818606FA4B725242E9811C494383EDD /* Frameworks */,
+				D098F7F0080A87A1F472C81FC2F85528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B563FB2414F38E66FA8DAAB4728D7D22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */,
+				3F2CE3CD8A6FF1BFCC826B0AAAE19CF9 /* Pods-SoftlinkAW */,
+				18CE111C015EAAE43AECB3A7D8F23844 /* Pods-SoftlinkAW-SoftlinkAWUITests */,
+				078CBBCB7E8DF4A033DFABDCEED41F37 /* Pods-SoftlinkAWTests */,
+				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
+				249E6CD01FDE0B27A27938C65A82728E /* USBDeviceSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68D7B239E91F8545A9CF028403B218DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C52F8DC6F0E87F776A3204EC5A06C8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76AB89E6B2255600C7FABB75680F171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8370E91C272F1B31D13EFAFEA45DDF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D098F7F0080A87A1F472C81FC2F85528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB39543BCF728D7582B3326934589CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */,
+				7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1BD77E4B0D849AA2AD239EA61B115D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D794FFDE79744FAA68EA7BBAEFBF7246 /* Pods-SoftlinkAW-SoftlinkAWUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96ABE1A6697A9C9B82D15BEA55EFE63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689FDAD8C1BB22C761EA2ED0137E55A8 /* HIDDevice.swift in Sources */,
+				63903EB27F2BF03B00AB1191464ABB6D /* HIDDeviceMonitor.swift in Sources */,
+				C603D529A08F3B8C181F0BEE36AE386E /* SerialDevice.swift in Sources */,
+				5A09108317117BA7CADED76D4AF08310 /* SerialDeviceMonitor.swift in Sources */,
+				191A6A2BA0EDECE004D7950267982882 /* USBDevice.swift in Sources */,
+				12687CFC14016E2161BAD5DF6776788D /* USBDeviceMonitor.swift in Sources */,
+				48F2E5F1F0005C725636F8211F12F76F /* USBDeviceSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC0B703CA1A8D6B6F6218DB55E212F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DCD9D6321222B746ACDF9E603E46F6 /* Pods-SoftlinkAW-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA99ED16FD44DA8B3FD690B27CBA2194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E654F0639E4FC3DEE1BEA8BB63F55745 /* BlueSocket-dummy.m in Sources */,
+				088322E81AC101AC449C5BBCEBE462DA /* Socket.swift in Sources */,
+				20ABA3F900EAFCE434322581110ADEF2 /* SocketProtocols.swift in Sources */,
+				2059D8B5FFE163E510E12C5A6A2E61F0 /* SocketUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62BD979567E14A1ED41059E69C0B467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AEAA43C01DC9998C8D6E12A7028EF8 /* Pods-SoftlinkAWTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27F63191C97269FCAA645E2A03BCE086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlueSocket;
+			target = 9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */;
+			targetProxy = E5C5738BAE9F6631795E3D116A1031FE /* PBXContainerItemProxy */;
+		};
+		4C843A814952BC911DFFB7BFBCAA48C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 5CD099514C1CE7CAC80D52D63900719D /* PBXContainerItemProxy */;
+		};
+		7A20ABD99AA61027303FFDA417CC845A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = USBDeviceSwift;
+			target = 249E6CD01FDE0B27A27938C65A82728E /* USBDeviceSwift */;
+			targetProxy = B1A62B5CD498D18CFF3D79FD920BCDE1 /* PBXContainerItemProxy */;
+		};
+		81CFB4C9E495C1739AE372B66141786E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlueSocket;
+			target = 9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */;
+			targetProxy = C0ED25CBFCC9104C6778E730EAD100DF /* PBXContainerItemProxy */;
+		};
+		88FA22697A8B06D0A5616DB213BA990B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = USBDeviceSwift;
+			target = 249E6CD01FDE0B27A27938C65A82728E /* USBDeviceSwift */;
+			targetProxy = F855F343BAD8CFC5034B54F0CE51543D /* PBXContainerItemProxy */;
+		};
+		B1D58F2DF2C412C9528AE59EA7E709DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SoftlinkAW";
+			target = 3F2CE3CD8A6FF1BFCC826B0AAAE19CF9 /* Pods-SoftlinkAW */;
+			targetProxy = FF902A7ABF9BD2A82F962FFA3F820864 /* PBXContainerItemProxy */;
+		};
+		C54D744F92E5CE80C8D30700B7A34F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = DDD03625B421EB0EDED39A841B24A56A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1358DB0A6D5E4D7C72EE13C1BD65838D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE93DE3CE1E3BC9987F192E1C64F3D5 /* SwiftyJSON.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		149E3DC59E471C2579AF91FB1AFFF84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		327BD3880BF5CE5C238DB9355E9E953E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B941A5745156FB6B0E8E6F02F809989B /* USBDeviceSwift.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/USBDeviceSwift/USBDeviceSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/USBDeviceSwift/USBDeviceSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/USBDeviceSwift/USBDeviceSwift.modulemap";
+				PRODUCT_MODULE_NAME = USBDeviceSwift;
+				PRODUCT_NAME = USBDeviceSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		382EC509452241CF471C2A0A10AEC407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD9DD9D24EAAD96B8E7090A62D3C8BC7 /* Pods-SoftlinkAW.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoftlinkAW/Pods-SoftlinkAW-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoftlinkAW/Pods-SoftlinkAW.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43ED1B39535DBEA637E1134BAF0A0192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D408BA5F34CF6646BD1F8D2D33CCB0 /* USBDeviceSwift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/USBDeviceSwift/USBDeviceSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/USBDeviceSwift/USBDeviceSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/USBDeviceSwift/USBDeviceSwift.modulemap";
+				PRODUCT_MODULE_NAME = USBDeviceSwift;
+				PRODUCT_NAME = USBDeviceSwift;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44FE886C40CD5E28569BEEA49B483DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C55CCAC7756350CACB85C2FB98AFA1 /* BlueSocket.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlueSocket/BlueSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlueSocket/BlueSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/BlueSocket/BlueSocket.modulemap";
+				PRODUCT_MODULE_NAME = Socket;
+				PRODUCT_NAME = Socket;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D6EAF51371CAA0957AF61F74CB2A3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A86AEF4479B96B4AE6F3AC5611961CEB /* Pods-SoftlinkAW-SoftlinkAWUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoftlinkAW-SoftlinkAWUITests/Pods-SoftlinkAW-SoftlinkAWUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoftlinkAW-SoftlinkAWUITests/Pods-SoftlinkAW-SoftlinkAWUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D87C3E3DC2732B3156BED1A8DB471B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFD9EE43E4C7146EA70AA5094E3743B /* Pods-SoftlinkAW.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoftlinkAW/Pods-SoftlinkAW-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoftlinkAW/Pods-SoftlinkAW.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E92FF06AB102CA5D5C2A8403A8BB828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC710DD4A4F795709870B21E10C84766 /* Pods-SoftlinkAW-SoftlinkAWUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoftlinkAW-SoftlinkAWUITests/Pods-SoftlinkAW-SoftlinkAWUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoftlinkAW-SoftlinkAWUITests/Pods-SoftlinkAW-SoftlinkAWUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F78358437F30B1379C8EACB4914221F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE91E5D3B68C5FD13CCD22D52AEF6C8B /* Pods-SoftlinkAWTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoftlinkAWTests/Pods-SoftlinkAWTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoftlinkAWTests/Pods-SoftlinkAWTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		711754F47DF4216BA905775BF46C78CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC5E7509629831AF343D4812C0DCA2E /* BlueSocket.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlueSocket/BlueSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlueSocket/BlueSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/BlueSocket/BlueSocket.modulemap";
+				PRODUCT_MODULE_NAME = Socket;
+				PRODUCT_NAME = Socket;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		728F4D93330D07A83832F8F00412DC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD1E53ABB63469ECBAEC69FEE6BE23C /* Pods-SoftlinkAWTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoftlinkAWTests/Pods-SoftlinkAWTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MODULEMAP_FILE = "Target Support Files/Pods-SoftlinkAWTests/Pods-SoftlinkAWTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A0C5A3A918A1009CDFDF6EA2A68DB1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A61D94987CB6A9306C5FCC7FF81222CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF27C2E2B9D45568B6B561AEF9BE0814 /* SwiftyJSON.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A078D1151C62817D5E349DC7C3D0271 /* Build configuration list for PBXNativeTarget "Pods-SoftlinkAW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				382EC509452241CF471C2A0A10AEC407 /* Debug */,
+				4D87C3E3DC2732B3156BED1A8DB471B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB94136CFB4424196B1EDB840E6BD6E /* Build configuration list for PBXNativeTarget "Pods-SoftlinkAW-SoftlinkAWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6EAF51371CAA0957AF61F74CB2A3EE /* Debug */,
+				4E92FF06AB102CA5D5C2A8403A8BB828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FFD5C4E4E4F1357AC9CE2CC0BB15EF /* Build configuration list for PBXNativeTarget "USBDeviceSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43ED1B39535DBEA637E1134BAF0A0192 /* Debug */,
+				327BD3880BF5CE5C238DB9355E9E953E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149E3DC59E471C2579AF91FB1AFFF84E /* Debug */,
+				7A0C5A3A918A1009CDFDF6EA2A68DB1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1358DB0A6D5E4D7C72EE13C1BD65838D /* Debug */,
+				A61D94987CB6A9306C5FCC7FF81222CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857246E78F46652207DEACCC0947A50E /* Build configuration list for PBXNativeTarget "Pods-SoftlinkAWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F78358437F30B1379C8EACB4914221F /* Debug */,
+				728F4D93330D07A83832F8F00412DC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87A03B7CDC3F58F8F7D420134806E925 /* Build configuration list for PBXNativeTarget "BlueSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FE886C40CD5E28569BEEA49B483DC5 /* Debug */,
+				711754F47DF4216BA905775BF46C78CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

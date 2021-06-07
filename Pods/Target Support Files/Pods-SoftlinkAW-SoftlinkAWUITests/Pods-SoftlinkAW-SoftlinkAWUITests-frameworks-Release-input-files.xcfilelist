@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-SoftlinkAW-SoftlinkAWUITests/Pods-SoftlinkAW-SoftlinkAWUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BlueSocket/Socket.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/USBDeviceSwift/USBDeviceSwift.framework
